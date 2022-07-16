@@ -1,0 +1,320 @@
+/* Css general y de la pagina de inicio */
+.centrar-titulo{
+    display: flex;
+    justify-content: center;
+    color: rgb(155, 206, 222);
+    
+}
+
+h1{
+    color: rgb(57, 135, 126);
+    background-color:rgb(16, 47, 56)  ;
+    font-size: 50px;
+    border: rgb(155, 206, 222) 2px solid;
+   
+
+}
+body{
+    background-image: url(../img/gif5.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+   
+}
+nav{
+    position: sticky; top: 10px;
+    z-index: 100;
+}
+
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(155, 206, 222);
+    border: rgb(16, 47, 56) 3px solid;
+    font-size: 32px;
+}
+
+.enlace{
+    text-decoration: none;
+    color: rgb(16, 47, 56) ;
+}
+
+.page-center{
+    /* clase para centrar las rs con imagen central */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+main{
+    text-align: center;
+}
+
+.logo{
+    width: 80px;
+    height: 60px;
+}
+
+.img1{
+    width: 600px;
+    height: 300px;
+}
+
+main div ul{
+    list-style-type: none;
+   
+
+}
+main div ul li{
+    display: list-item;
+     
+    margin-bottom: 12px;
+}
+
+.ptr{
+    width: 35px;
+    height: 35px;
+}
+
+.instw{
+    width: 42px;
+    height: 42px;
+}
+
+
+.disc{
+    width: 40px;
+    height: 40px;
+}
+
+p{
+    font-size: 18px;
+    color: rgb(155, 206, 222);
+    width: 1000px;
+    text-align: center;
+    
+    
+    
+}
+
+.formulario1{
+    text-align: center;
+    margin-top: 30px;
+}
+
+label{
+    font-size: 18px;
+    color: rgb(155, 206, 222);
+}
+
+input{
+    
+    font-size: 18px;
+    color: rgb(155, 206, 222);
+    background-color: rgb(16, 47, 56);
+    margin-bottom: 10px;
+    
+}
+
+select{
+    width: 200px;
+    height: 30px;
+    font-size: 18px;
+    color: rgb(155, 206, 222);
+    background-color: rgb(16, 47, 56);
+    margin-bottom: 10px;
+}
+
+.az{
+    color: blue;
+}
+
+.ro{
+    color: red;
+}
+
+.ve{
+    color: green;
+}
+
+.ce{
+    color: aqua;
+}
+
+.am{
+    color: yellow;
+}
+
+.mo{
+    color: purple;
+}
+
+.na{
+    color: orange;
+}
+
+.enviar{
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.center-text{
+    text-align: center;
+}
+
+h3{
+    color: rgb(155, 206, 222);
+   
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.comenzar{
+    font-size: 40px;
+    background-color: rgb(155, 206, 222);
+    border: rgb(16, 47, 56) 3px solid;
+    text-decoration: none;
+
+}
+
+
+footer{
+    text-align: center;
+}
+
+
+
+table{
+    color: rgb(155, 206, 222);
+    margin: 0 auto;
+ text-align: left;
+ border: 1px solid;
+  width: 400px;
+  height: 300px;
+  margin-bottom: 40px;
+}
+
+th, td{
+ border: 1px solid;
+}
+
+h4{
+    color: rgb(155, 206, 222);
+    text-align: end;
+}
+
+/* css pagina de noticias */
+.noticia{
+    text-align: center;
+    color: rgb(155, 206, 222);
+    list-style-type: none;
+    background-color: rgb(16, 47, 56);
+    border: rgb(57, 135, 126) 3px solid;
+    
+    
+}
+
+
+
+.li-noticia{
+    padding-bottom: 50px;
+    font-size: 20px;
+}
+
+.noticias2{
+    max-width: 1260px;
+    margin-left: 130px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.cuadro-color{
+    color: rgb(155, 206, 222);
+    text-align: center;
+    background-color: rgb(16, 47, 56);
+    border: rgb(155, 206, 222) 3px solid;
+   
+}
+
+.form-soporte{
+    text-align: center;
+    color: rgb(155, 206, 222)
+}
+
+/* css pagina de soporte */
+.texta1{
+    resize: none;
+    width: 500px;
+    height: 250px;
+    font-size: 18px;
+    background-color: rgb(16, 47, 56);
+    
+}
+
+.inp1{
+    width: 300px;
+}
+
+/* css pagina de comunidad */
+
+.texta2{
+    resize: none;
+    width: 700px;
+    height: 450px;
+    font-size: 18px;
+    background-color: rgb(16, 47, 56);
+    color: rgb(155, 206, 222);
+}
+.enviar2{
+ text-align: center;
+}
+
+
+.comentario{
+    color: rgb(155, 206, 222);
+    background-color: rgb(16, 47, 56);
+    border: rgb(155, 206, 222) 3px solid;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+
+/* css pagina de informacion */
+
+.info-p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.agrandar-p{
+    height: 250px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.img-info{
+    margin-bottom: 30px;
+    width: 1020px;
+    height: 420px;
+}
+
+.enlace2{
+    color: rgb(155, 206, 222);
+}
