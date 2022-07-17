@@ -1,3 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
 /* Css general y de la pagina de inicio */
 .centrar-titulo{
     display: flex;
@@ -19,9 +27,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     font-family: sans-serif;
-    padding: 0;
-    margin: 0;
-   
+
 }
 nav{
     position: sticky; top: 10px;
