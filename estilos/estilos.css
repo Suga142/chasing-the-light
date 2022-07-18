@@ -14,6 +14,7 @@
     
 }
 
+
 h1{
     color: rgb(57, 135, 126);
     font-size: 30px;
@@ -194,7 +195,7 @@ h3{
     text-decoration: none;
     display: inline-block;
     color: rgb(16, 47, 56);
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 
@@ -207,15 +208,22 @@ footer{
     height: 170px;
     color: rgb(155, 206, 222);
     padding-left: 10px;
+    margin-top: 20px;
 }
 
-
+h5{
+    margin-bottom: 70px;
+}
 
 /* css pagina de noticias */
 
 .noticias{
-    
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 95%;
+    justify-content: center;
 }
+
 .noticia{
     text-align: center;
     color: rgb(155, 206, 222);
@@ -226,11 +234,30 @@ footer{
     
 }
 
-
-
-.li-noticia{
-    padding-bottom: 50px;
+.noticias h2{
     font-size: 20px;
+    padding: 5px;
+}
+
+.noticias p{
+    font-size: 17px;
+    margin-top: 15px;
+}
+
+.noticias ul{
+    list-style-type: none;
+    height: 265px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.noticias li{
+    padding-bottom: 50px;
+    font-size: 15px;
 }
 
 .noticias2{
@@ -243,45 +270,47 @@ footer{
     margin-top: 40px;
 }
 
-.cuadro-color{
-    color: rgb(155, 206, 222);
-    text-align: center;
-    background-color: rgb(16, 47, 56);
-    border: rgb(155, 206, 222) 3px solid;
-   
-}
+/* css pagina de soporte */
 
 .form-soporte{
     text-align: center;
     color: rgb(155, 206, 222)
 }
 
-/* css pagina de soporte */
+.inp1{
+    width: 300px;
+}
+
 .texta1{
     resize: none;
-    width: 500px;
-    height: 250px;
+    color: rgb(155, 206, 222);
     font-size: 18px;
     background-color: rgb(16, 47, 56);
     
 }
 
-.inp1{
-    width: 300px;
-}
 
 /* css pagina de comunidad */
 
+.cuadro-color{
+    color: rgb(155, 206, 222);
+    text-align: center;
+    background-color: rgb(16, 47, 56);
+    border: rgb(155, 206, 222) 3px solid;
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 25px;
+}
+
 .texta2{
     resize: none;
-    width: 700px;
-    height: 450px;
     font-size: 18px;
     background-color: rgb(16, 47, 56);
     color: rgb(155, 206, 222);
 }
 .enviar2{
  text-align: center;
+ margin-bottom: 25px;
 }
 
 
@@ -290,9 +319,13 @@ footer{
     background-color: rgb(16, 47, 56);
     border: rgb(155, 206, 222) 3px solid;
     margin-top: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    height: 100px;
+    justify-content: space-evenly;
+    height: 250px;
 }
 
 /* css pagina de informacion */
