@@ -56,6 +56,14 @@ nav ul{
     color: rgb(155, 206, 222);
 }
 
+nav ul li a{
+    transition-delay: .2s;
+    transition-timing-function: ease;
+}
+
+nav ul li a:hover{
+    color: rgb(73, 239, 220);
+}
 
 main{
     text-align: center;
@@ -66,6 +74,11 @@ main{
     height: 17vh;
     margin-top: 10px;
     margin-bottom: 20px;
+
+    animation-name: palpitar;
+    animation-duration: 1.7s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
 }
 
 .img1{
@@ -94,16 +107,31 @@ main div ul li{
     margin-top: 7px;
 }
 
+.ptr:hover{
+    width: 60px;
+    height: 60px;
+}
+
+
 .instw{
     width: 42px;
     height: 42px;
 }
 
+.instw:hover{
+    width: 70px;
+    height: 70px;
+}
 
 .disc{
     width: 40px;
     height: 40px;
     margin-top: 5px;
+}
+
+.disc:hover{
+    width: 72px;
+    height: 72px;
 }
 
 p{
@@ -230,7 +258,8 @@ h5{
     justify-content: center;
 
     animation-name: aparicion;
-    animation-duration: 1.5s;
+    animation-duration: 1s;
+    animation-timing-function: ease;
 }
 
 .noticia{
@@ -267,6 +296,14 @@ h5{
 .noticias li{
     padding-bottom: 30px;
     font-size: 15px;
+}
+
+.enlace2{
+    color: rgb(155, 206, 222);
+}
+
+.enlace2:hover{
+    color: rgb(57, 135, 126);
 }
 
 .evento p{
@@ -339,6 +376,10 @@ h5{
     gap: 10px;
     grid-template-columns: 95%;
     justify-content: center;
+
+    animation-name: aparicion;
+    animation-duration: 1s;
+    animation-timing-function: ease;
 }
 
 
@@ -353,8 +394,29 @@ h5{
     padding: 7px;
 }
 
-.enlace2{
-    color: rgb(155, 206, 222);
+
+@keyframes aparicion{
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes palpitar{
+    0%{
+        transform: scale(.8,.7);
+    }
+
+    50%{
+        transform: scale(.9,.8);
+    }
+
+    100%{
+        transform: scale(1,.9);
+    }
 }
 
 /* ----- Media Queries----- */
