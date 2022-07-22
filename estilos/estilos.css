@@ -6,7 +6,7 @@
 
 
 
-/* Css general y de la pagina de inicio */
+/* ----- Css general y de la pagina de inicio ----- */
 body{
     background-image: url(../img/gif5.gif);
     background-size: cover;
@@ -221,13 +221,16 @@ h5{
     margin-bottom: 70px;
 }
 
-/* css pagina de noticias */
+/* ----- css pagina de noticias ----- */
 
 .noticias{
     display: grid;
     gap: 15px;
     grid-template-columns: 95%;
     justify-content: center;
+
+    animation-name: aparicion;
+    animation-duration: 1.5s;
 }
 
 .noticia{
@@ -271,7 +274,7 @@ h5{
     padding-bottom: 30px;
 }
 
-/* css pagina de soporte */
+/* ----- css pagina de soporte ----- */
 
 .form-soporte{
     text-align: center;
@@ -291,7 +294,7 @@ h5{
 }
 
 
-/* css pagina de comunidad */
+/* ----- css pagina de comunidad ----- */
 
 .cuadro-color{
     color: rgb(155, 206, 222);
@@ -329,7 +332,7 @@ h5{
     height: 250px;
 }
 
-/* css pagina de informacion */
+/* ------ css pagina de informacion ------ */
 
 .info{
     display: grid;
@@ -337,6 +340,8 @@ h5{
     grid-template-columns: 95%;
     justify-content: center;
 }
+
+
 
 
 .info img{
@@ -352,7 +357,7 @@ h5{
     color: rgb(155, 206, 222);
 }
 
-/* Media Queries */
+/* ----- Media Queries----- */
 
 @media screen and (min-width: 650px){
     /* Inicio */
